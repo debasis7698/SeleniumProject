@@ -17,13 +17,15 @@ import com.training.dataproviders.LoginDataProviders;
 import com.training.generics.GenericMethods;
 import com.training.generics.ScreenShot;
 import com.training.pom.LoginPOM;
+import com.training.pom.LoginPOM_022;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
 public class LoginDBTest {
 	private WebDriver driver;
 	private String baseUrl;
-	private LoginPOM loginPOM;
+	//private LoginPOM loginPOM;
+	private LoginPOM_022 loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
 	private GenericMethods genericMethods; 
@@ -39,7 +41,7 @@ public class LoginDBTest {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver);
+		loginPOM = new LoginPOM_022(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver);
 		genericMethods = new GenericMethods(driver); 

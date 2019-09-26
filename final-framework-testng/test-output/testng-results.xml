@@ -1,29 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31121" started-at="2019-09-17T15:19:15 IST" finished-at="2019-09-17T15:19:46 IST">
+  <suite name="Default suite" duration-ms="90230" started-at="2019-09-25T21:24:17 IST" finished-at="2019-09-25T21:25:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31121" started-at="2019-09-17T15:19:15 IST" finished-at="2019-09-17T15:19:46 IST">
-      <class name="com.training.sanity.tests.Test_055">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Test_055@1efed156]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-09-17T15:19:15 IST" finished-at="2019-09-17T15:19:15 IST">
+    <test name="Default test" duration-ms="90230" started-at="2019-09-25T21:24:17 IST" finished-at="2019-09-25T21:25:47 IST">
+      <class name="com.training.regression.tests.Test_085">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-09-25T21:24:17 IST" finished-at="2019-09-25T21:24:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Test_055@1efed156]" name="setUp" is-config="true" duration-ms="14951" started-at="2019-09-17T15:19:15 IST" finished-at="2019-09-17T15:19:30 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="setUp" is-config="true" duration-ms="14114" started-at="2019-09-25T21:24:18 IST" finished-at="2019-09-25T21:24:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Test_055@1efed156]" name="validLoginTest" duration-ms="16088" started-at="2019-09-17T15:19:30 IST" finished-at="2019-09-17T15:19:46 IST">
+        <test-method status="PASS" signature="checkorders(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="checkorders" duration-ms="6499" started-at="2019-09-25T21:24:32 IST" data-provider="excel-inputs" finished-at="2019-09-25T21:24:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Test_055@1efed156]" name="tearDown" is-config="true" duration-ms="6" started-at="2019-09-17T15:19:46 IST" finished-at="2019-09-17T15:19:46 IST">
+        </test-method> <!-- checkorders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="tearDown" is-config="true" duration-ms="1977" started-at="2019-09-25T21:24:39 IST" finished-at="2019-09-25T21:24:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Test_055 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="setUp" is-config="true" duration-ms="13164" started-at="2019-09-25T21:24:41 IST" finished-at="2019-09-25T21:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkorders(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="checkorders" duration-ms="7346" started-at="2019-09-25T21:24:54 IST" data-provider="excel-inputs" finished-at="2019-09-25T21:25:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-12-11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkorders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="tearDown" is-config="true" duration-ms="1918" started-at="2019-09-25T21:25:01 IST" finished-at="2019-09-25T21:25:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="setUp" is-config="true" duration-ms="13242" started-at="2019-09-25T21:25:03 IST" finished-at="2019-09-25T21:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkorders(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="checkorders" duration-ms="6889" started-at="2019-09-25T21:25:17 IST" data-provider="excel-inputs" finished-at="2019-09-25T21:25:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkorders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="tearDown" is-config="true" duration-ms="1901" started-at="2019-09-25T21:25:23 IST" finished-at="2019-09-25T21:25:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="setUp" is-config="true" duration-ms="13572" started-at="2019-09-25T21:25:25 IST" finished-at="2019-09-25T21:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkorders(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="checkorders" duration-ms="6346" started-at="2019-09-25T21:25:39 IST" data-provider="excel-inputs" finished-at="2019-09-25T21:25:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Canceled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkorders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.Test_085@6737fd8f]" name="tearDown" is-config="true" duration-ms="1887" started-at="2019-09-25T21:25:45 IST" finished-at="2019-09-25T21:25:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.regression.tests.Test_085 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

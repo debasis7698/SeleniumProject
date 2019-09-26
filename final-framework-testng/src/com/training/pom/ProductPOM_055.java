@@ -86,6 +86,7 @@ public class ProductPOM_055 {
 	private WebElement saveBtn;
 	
 	
+		
 	public void sendprdtName(String prdtName) {
 		this.prdtName.clear(); 
 		this.prdtName.sendKeys(prdtName); 
@@ -157,11 +158,9 @@ public class ProductPOM_055 {
 	
 	public void clicksaveBtn() {
 		this.saveBtn.click(); 
-		
-		
-		
-		
 	}
+		
+		
 	
 		
 	}
